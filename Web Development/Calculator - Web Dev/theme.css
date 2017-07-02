@@ -1,0 +1,24 @@
+.table{
+	border: groove;
+	border: outset;
+	background-color: transparent;
+	border-color: blue;
+}
+
+.style-1 input[type="text"] {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+.style-1 input[type="text"]:focus,
+.style-1 input[type="text"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+.style-1 {
+	border-style: solid;
+	padding-top: 3px;
+	padding-bottom: 0px;
+	width: 165px;
+	height: 190px;
+}
