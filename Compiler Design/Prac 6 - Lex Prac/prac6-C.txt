@@ -1,0 +1,27 @@
+%{
+#include <stdio.h>
+int pi=0,ni=0,pf=0,nf=0;
+%}
+
+%%
+\+?[0-9]+ pi++;
+\+?[0-9]*\.[0-9]+ pf++;
+\-?[0-9]+ ni++;
+\-?[0-9]*\.[0-9]+ nf++;
+
+%%
+
+int yywrap()
+{
+return 1;
+}
+
+void main()
+{
+printf("Enter the String...at end Press ^d\n");
+yylex();
+printf("\nPOSITIVE INTEGER: %d",pi);
+printf("\nPOSITIVE FRACTION: %d",pf);
+printf("\nNEGATIVE INTEGER: %d",ni);
+printf("\nNEGATIVE FRACTION: %d",nf);
+}

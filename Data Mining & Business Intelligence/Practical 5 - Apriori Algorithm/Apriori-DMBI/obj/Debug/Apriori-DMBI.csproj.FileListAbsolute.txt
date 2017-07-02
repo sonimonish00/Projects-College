@@ -1,0 +1,6 @@
+c:\users\soni\documents\visual studio 2015\Projects\Apriori-DMBI\Apriori-DMBI\bin\Debug\Apriori-DMBI.exe.config
+c:\users\soni\documents\visual studio 2015\Projects\Apriori-DMBI\Apriori-DMBI\bin\Debug\Apriori-DMBI.exe
+c:\users\soni\documents\visual studio 2015\Projects\Apriori-DMBI\Apriori-DMBI\bin\Debug\Apriori-DMBI.pdb
+c:\users\soni\documents\visual studio 2015\Projects\Apriori-DMBI\Apriori-DMBI\obj\Debug\Apriori-DMBI.exe
+c:\users\soni\documents\visual studio 2015\Projects\Apriori-DMBI\Apriori-DMBI\obj\Debug\Apriori-DMBI.pdb
+C:\Users\Soni\documents\visual studio 2015\Projects\Apriori-DMBI\Apriori-DMBI\obj\Debug\Apriori-DMBI.csprojResolveAssemblyReference.cache
