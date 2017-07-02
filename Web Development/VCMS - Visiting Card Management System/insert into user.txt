@@ -1,1 +1,0 @@
-INSERT INTO `user` (`name`, `mobile`, `emailid`, `password`) VALUES ('NameValue', '123', 'value@gmailc.om', 'valuePass')
