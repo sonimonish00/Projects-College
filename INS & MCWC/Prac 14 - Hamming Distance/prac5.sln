@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prac5", "prac5\prac5.csproj", "{CF59EEC4-C157-4111-B7FA-0908B031D23B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF59EEC4-C157-4111-B7FA-0908B031D23B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF59EEC4-C157-4111-B7FA-0908B031D23B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF59EEC4-C157-4111-B7FA-0908B031D23B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF59EEC4-C157-4111-B7FA-0908B031D23B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+c:\users\soni\documents\visual studio 2015\Projects\Prac3-a\Prac3-a\bin\Debug\Prac3-a.exe.config
+C:\Users\Soni\documents\visual studio 2015\Projects\Prac3-a\Prac3-a\bin\Debug\Prac3-a.exe
+C:\Users\Soni\documents\visual studio 2015\Projects\Prac3-a\Prac3-a\bin\Debug\Prac3-a.pdb
+C:\Users\Soni\documents\visual studio 2015\Projects\Prac3-a\Prac3-a\obj\Debug\Prac3_a.Form1.resources
+C:\Users\Soni\documents\visual studio 2015\Projects\Prac3-a\Prac3-a\obj\Debug\Prac3_a.Properties.Resources.resources
+C:\Users\Soni\documents\visual studio 2015\Projects\Prac3-a\Prac3-a\obj\Debug\Prac3-a.csproj.GenerateResource.Cache
+C:\Users\Soni\documents\visual studio 2015\Projects\Prac3-a\Prac3-a\obj\Debug\Prac3-a.exe
+C:\Users\Soni\documents\visual studio 2015\Projects\Prac3-a\Prac3-a\obj\Debug\Prac3-a.pdb

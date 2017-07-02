@@ -1,0 +1,9 @@
+c:\users\soni\documents\visual studio 2015\Projects\Prac1-SimpleCalci\Prac1-SimpleCalci\bin\Debug\Prac1-SimpleCalci.exe.config
+c:\users\soni\documents\visual studio 2015\Projects\Prac1-SimpleCalci\Prac1-SimpleCalci\bin\Debug\Prac1-SimpleCalci.exe
+c:\users\soni\documents\visual studio 2015\Projects\Prac1-SimpleCalci\Prac1-SimpleCalci\bin\Debug\Prac1-SimpleCalci.pdb
+c:\users\soni\documents\visual studio 2015\Projects\Prac1-SimpleCalci\Prac1-SimpleCalci\obj\Debug\Prac1-SimpleCalci.csprojResolveAssemblyReference.cache
+c:\users\soni\documents\visual studio 2015\Projects\Prac1-SimpleCalci\Prac1-SimpleCalci\obj\Debug\Prac1_SimpleCalci.form.resources
+c:\users\soni\documents\visual studio 2015\Projects\Prac1-SimpleCalci\Prac1-SimpleCalci\obj\Debug\Prac1_SimpleCalci.Properties.Resources.resources
+c:\users\soni\documents\visual studio 2015\Projects\Prac1-SimpleCalci\Prac1-SimpleCalci\obj\Debug\Prac1-SimpleCalci.csproj.GenerateResource.Cache
+c:\users\soni\documents\visual studio 2015\Projects\Prac1-SimpleCalci\Prac1-SimpleCalci\obj\Debug\Prac1-SimpleCalci.exe
+c:\users\soni\documents\visual studio 2015\Projects\Prac1-SimpleCalci\Prac1-SimpleCalci\obj\Debug\Prac1-SimpleCalci.pdb

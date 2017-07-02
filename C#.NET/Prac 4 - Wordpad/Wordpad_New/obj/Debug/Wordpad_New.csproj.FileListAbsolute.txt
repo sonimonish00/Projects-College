@@ -1,0 +1,9 @@
+c:\users\soni\documents\visual studio 2015\Projects\Wordpad_New\Wordpad_New\bin\Debug\Wordpad_New.exe.config
+c:\users\soni\documents\visual studio 2015\Projects\Wordpad_New\Wordpad_New\obj\Debug\Wordpad_New.Form1.resources
+c:\users\soni\documents\visual studio 2015\Projects\Wordpad_New\Wordpad_New\obj\Debug\Wordpad_New.Properties.Resources.resources
+c:\users\soni\documents\visual studio 2015\Projects\Wordpad_New\Wordpad_New\obj\Debug\Wordpad_New.csproj.GenerateResource.Cache
+c:\users\soni\documents\visual studio 2015\Projects\Wordpad_New\Wordpad_New\bin\Debug\Wordpad_New.exe
+c:\users\soni\documents\visual studio 2015\Projects\Wordpad_New\Wordpad_New\bin\Debug\Wordpad_New.pdb
+c:\users\soni\documents\visual studio 2015\Projects\Wordpad_New\Wordpad_New\obj\Debug\Wordpad_New.exe
+c:\users\soni\documents\visual studio 2015\Projects\Wordpad_New\Wordpad_New\obj\Debug\Wordpad_New.pdb
+C:\Users\Soni\documents\visual studio 2015\Projects\Wordpad_New\Wordpad_New\obj\Debug\Wordpad_New.csprojResolveAssemblyReference.cache

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CALCULATOR - 131040107039</title>
+	<link rel="stylesheet" type="text/css" href="theme.css">
+	<script>
+	function backspace()
+        {  
+            var x = document.getElementById("workspace").value;
+            var str=x.toString(); 
+           document.getElementById("workspace").value = str.substring(0,str.length -1);      
+        }
+</script>
+</head>
+<body >
+
+	<center>
+		<form name="calci" class="input-list style-1 clearfix">
+			<input type="text" Placeholder="Enter Number Here"  id="workspace" readonly required>
+			<br> MADE BY MONISH 
+			<br>
+			<table align="center" class="table">
+				<tr align="center">
+					<td colspan="2"><input type="button" value="Backspace" onclick='backspace(this)'></td>
+					<td><input type="button" value="C" onclick="calci.workspace.value=''"></td>
+					<td><input type="button" value="/" onclick="calci.workspace.value+='/'"></td>
+				</tr>
+				<tr align="center">
+					<td><input type="button" value="1" onclick="calci.workspace.value+='1'"></td>
+					<td><input type="button" value="2" onclick="calci.workspace.value+='2'"></td>
+					<td><input type="button" value="3" onclick="calci.workspace.value+='3'"></td>
+					<td><input type="button" value="-" onclick="calci.workspace.value+='-'"></td>
+				</tr>
+				<tr align="center">
+					<td><input type="button" value="4" onclick="calci.workspace.value+='4'"></td>
+					<td><input type="button" value="5" onclick="calci.workspace.value+='5'"></td>
+					<td><input type="button" value="6" onclick="calci.workspace.value+='6'"></td>
+					<td><input type="button" value="+" style="width:25px" onclick="calci.workspace.value+='+'"></td>
+				</tr>
+				<tr align="center">
+					<td><input type="button" value="7" onclick="calci.workspace.value+='7'"></td>
+					<td><input type="button" value="8" onclick="calci.workspace.value+='8'"></td>
+					<td><input type="button" value="9" onclick="calci.workspace.value+='9'"></td>
+					<td><input type="button" value="*" style="width:25px" onclick="calci.workspace.value+='*'"></td>
+				</tr>
+				<tr align="center" style="width:30px">
+
+				<td></td> <!-- Just Blank -->
+					<td colspan="1">
+						<input type="button" value="=" style="width:28px" onclick='calci.workspace.value = eval(calci.workspace.value)'>
+						
+					</td>
+					<td>
+						<input type="button" value="." style="width:30px" onclick="calci.workspace.value+='.'">
+						<td><input type="button" value="0" onclick="calci.workspace.value+='0'"></td>
+					</td>
+
+				</tr>
+			</table>
+
+			
+		</form>
+	</center>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+CREATE TABLE `vcms`.`person` ( `username` VARCHAR(50) NOT NULL , `pid` INT(10) NOT NULL AUTO_INCREMENT , `name` VARCHAR(50) NOT NULL , `designation` VARCHAR(50) NOT NULL , `company` VARCHAR(50) NULL , `mobile` INT(12) NOT NULL , `address` VARCHAR(255) NOT NULL , `emailid` VARCHAR(50) NOT NULL , `website` VARCHAR(50) NULL , PRIMARY KEY (`pid`(10))) ENGINE = MyISAM;

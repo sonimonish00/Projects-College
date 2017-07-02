@@ -1,0 +1,9 @@
+c:\users\soni\documents\visual studio 2015\Projects\Stock_Management\Stock_Management\bin\Debug\Stock_Management.exe.config
+c:\users\soni\documents\visual studio 2015\Projects\Stock_Management\Stock_Management\bin\Debug\Stock_Management.exe
+c:\users\soni\documents\visual studio 2015\Projects\Stock_Management\Stock_Management\bin\Debug\Stock_Management.pdb
+c:\users\soni\documents\visual studio 2015\Projects\Stock_Management\Stock_Management\obj\Debug\Stock_Management.csprojResolveAssemblyReference.cache
+c:\users\soni\documents\visual studio 2015\Projects\Stock_Management\Stock_Management\obj\Debug\Stock_Management.Form1.resources
+c:\users\soni\documents\visual studio 2015\Projects\Stock_Management\Stock_Management\obj\Debug\Stock_Management.Properties.Resources.resources
+c:\users\soni\documents\visual studio 2015\Projects\Stock_Management\Stock_Management\obj\Debug\Stock_Management.csproj.GenerateResource.Cache
+c:\users\soni\documents\visual studio 2015\Projects\Stock_Management\Stock_Management\obj\Debug\Stock_Management.exe
+c:\users\soni\documents\visual studio 2015\Projects\Stock_Management\Stock_Management\obj\Debug\Stock_Management.pdb
