@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+     <div t-name="mail.ChatThread.ImageEditor">
+
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand o_close_editor">
+                            <i class="fa fa-chevron-left" />
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a class="navbar-brand">
+                                    <span class="title"><t t-esc="widget.att_name"/></span>
+                                    <span class="subtitle"><p class="last_modified_time"></p></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right custom_nav">
+                            
+                            <li class="versioncontrol" data-toggle="tooltip" data-placement="bottom" title="Versions" data-delay='{"show":"100"}'>
+                                
+                                  <button class="btn btn-default dropdown-toggle versioncontrol_btn" type="button" data-toggle="dropdown"><i class="fa fa-code-fork" style="color:#21b799;"/> Version 0
+                                  <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Version 1</a></li>
+                                    <li><a href="#">Version 2</a></li>
+                                    <li role="presentation" class="divider"></li>
+                                    <li><a class="addversion"><i class="fa fa-plus" aria-hidden="true"></i> Add Version</a></li>
+                                </ul>
+                                
+                            </li>
+
+                            <li id="color_picker_menubar_id" class="default_color_class" data-toggle="tooltip" data-placement="bottom" title="Default Color" data-delay='{"show":"100"}'>                       
+                                <div class="dropdown-toggle color_picker" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                    <div class="color_picker_selected_menubar circle_color_1"></div>
+                                    <i id="color_picker_menu_icon" class="fa fa-angle-down angle" aria-hidden="true"></i>
+                                </div>
+                                <ul class="dropdown-menu color_picker_dropdown_top_panel" style="left:0;" role="menu">
+                                    <li><div class="color_picker_all_menubar circle_color_1" data-color="1"/></li>
+                                    <li><div class="color_picker_all_menubar circle_color_2" data-color="2"/></li>
+                                    <li><div class="color_picker_all_menubar circle_color_3" data-color="3"/></li>
+                                    <li><div class="color_picker_all_menubar circle_color_4" data-color="4"/></li>
+                                    <li><div class="color_picker_all_menubar circle_color_5" data-color="5"/></li>
+                                    <li><div class="color_picker_all_menubar circle_color_6" data-color="6"/></li>
+                                </ul>
+                            </li>
+                            <li id="hide_annotation_tooltip" class="o_editor_hide_annotation_btn" data-toggle="tooltip" data-placement="bottom" title="Hide Annotation" data-delay='{"show":"100"}'>
+                                <a><i id="hide_annotation_icon" class="fa fa-eye" style="color:#21b799;"/></a>
+                            </li>
+                            <li data-toggle="tooltip" data-placement="bottom" title="Download Image" data-delay='{"show":"100"}'><a t-att-href="widget.download_link"><i class="fa fa-download" /> </a></li>
+
+                            <li data-toggle="tooltip" data-placement="bottom" title="Share Image" data-delay='{"show":"100"}'><a class="share_image"><i class="fa fa-share-alt" /> </a></li>
+
+                            <li id="hide_comments_area_icon" data-toggle="tooltip" data-placement="bottom" title="Hide Comments" data-delay='{"show":"100"}'>
+                                <a class="hide_comments_area" ><i class="fa fa-commenting-o" aria-hidden="true"></i>
+                            <i id="hide_comment_icon" class="fa fa-angle-up angle" aria-hidden="true"></i>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="editor_root container-fluid">
+                <div class="row editor_root_row">
+                    
+                    <div id="o-image-editor_id" class="col-md-9 o-image-editor">
+                        <t t-if="widget.att_type == 'image'">
+                            <div class="o_image_annoted_div">
+                                <img class="o_editor_image" t-attf-src="/web/image/#{widget.att_id}" />
+                            </div>
+                        </t>
+                        <t t-if="widget.att_type == 'pdf'">
+                            <div class="embed-responsive embed-responsive-16by9">
+                              <iframe id="pdfs" class="pdf_editor embed-responsive-item" t-attf-src="/web/static/lib/pdfjs/web/viewer.html?file=%2Fweb%2Fimage%2F#{widget.att_id}#page=1"></iframe>
+                            </div>
+                        </t>
+                    </div>
+                    <div id="o-sidebar_id" class="col-md-3 o-sidebar">
+                        <div class="o-comments-title">
+                            <div class="num_of_comments text-center"></div>
+                        </div>
+                        <div class="o-comments-area"/>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="alert alert-success link_notify">
+            <i class="fa fa-check" aria-hidden="true"></i> <strong>Success!</strong> link copied to clipboard
+        </div>
+
+    </div>
+
+    <div t-name="mail.ChatThread.ImageEditor.Chatter">
+        <div class="o_annoted_circle" t-attf-style="top : #{widget.chatter_Values.circle_top}px ; left: #{widget.chatter_Values.circle_left}px"><t t-esc="widget.chatter_Values.comment_num"></t></div>
+        
+        <t t-if="widget.chatter_Values.rectangle_height &gt; 15 and widget.chatter_Values.rectangle_width &gt; 15">
+            <div class="o_image_editor_rectangle" t-attf-style="top : #{widget.chatter_Values.rectangle_top}px ; left: #{widget.chatter_Values.rectangle_left}px ; height : #{widget.chatter_Values.rectangle_height}px ; width : #{widget.chatter_Values.rectangle_width}px"/>
+        </t>
+
+  
+        <div class="o_comment_box_root" t-attf-style="top : #{widget.chatter_Values.circle_top-20}px ; left: #{widget.chatter_Values.circle_left+35}px">
+            <div class="panel-group">
+                <div class="tooltiptail"/>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div class="comment_text_div pull-left">Start Conversation</div>
+                        <div class="btn-group pull-right" role="group">
+                            <span class="resolve_btn">
+                                <i aria-hidden="true" class="fa fa-check-circle" style="margin-bottom: 0px;margin-top: 4px;  height: 100%;font-size: 20px;padding: 0px 0px 1px 4px;"/>
+                            </span>
+                            <button aria-expanded="false" aria-haspopup="true" class="btn btn-default dropdown-toggle color_picker_comment" data-toggle="dropdown" type="button">
+                                <div class="color_picker_selected circle_color_1"/>
+                                <span class="caret" style="padding-top: 8px;"/>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <div class="color_picker_all circle_color_1" data-color="1"/>
+                                </li>
+                                <li>
+                                    <div class="color_picker_all circle_color_2" data-color="2"/>
+                                </li>
+                                <li>
+                                    <div class="color_picker_all circle_color_3" data-color="3"/>
+                                </li>
+                                <li>
+                                    <div class="color_picker_all circle_color_4" data-color="4"/>
+                                </li>
+                                <li>
+                                    <div class="color_picker_all circle_color_5" data-color="5"/>
+                                </li>
+                                <li>
+                                    <div class="color_picker_all circle_color_6" data-color="6"/>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="o_comment_box_chatter_div"/>
+                    </div>
+                    <div class="resolved_text"><i class="fa fa-check" style="padding-right: 10px;"></i>this conversation is resolved</div>
+                    <div class="panel-footer">
+                        <textarea class="o_composer_text_field" placeholder="Write something..."/>
+                        <div style="padding-top: 7px;">
+                            <button class="btn o_comment_box_send" style="margin:5px;" type="button" disabled="true">COMMENT</button>
+                            <button class="btn o_comment_box_close" style="margin:5px;" type="button">CANCEL</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <t t-name="mail.imageeditor.message_template">
+        <t t-foreach="messages" t-as="message">
+            <div class="message_template_div">
+                <div>
+                    <div class="message_template_div_img_div">
+                        <img class="message_template_div_img" t-attf-src="#{message.photo_link}"> </img>
+                    </div>
+                    <div class="raw message_template_div_author">
+                        <div><t t-esc="message.author"/></div>
+                        <div class="create_date" t-attf-title="#{message.utc_time}"><t t-esc="message.create_date"/></div>
+                    </div>
+                </div>
+                <div class="raw message_template_div_msg"><t t-esc="message.message"/></div>
+            </div>
+        </t>
+    </t>
+
+    <t t-name="mail.ChatThread.ImageEditor.MessageTile">
+        <t t-foreach="messagetiles" t-as="messagetile">
+            <t t-if="messagetile.resolve">
+                <div class="o-comment-card" style="opacity : 0.5" t-att-data-id="messagetile.id">
+                   <div class="panel">
+                       <div class="panel-heading">
+                           <div t-attf-class="o-comment-status #{messagetile.color}"><t t-esc="messagetile.comment_num"></t></div>
+                           <h3 class="panel-title" style="text-decoration : line-through;"><t t-esc="messagetile.messsage"/></h3>
+                       </div>
+                   </div>
+                </div>  
+            </t>
+            <t t-else="">
+                <div class="o-comment-card" t-att-data-id="messagetile.id">
+                   <div class="panel">
+                       <div class="panel-heading">
+                           <div t-attf-class="o-comment-status #{messagetile.color}"><t t-esc="messagetile.comment_num"></t></div>
+                           <h3 class="panel-title"><t t-esc="messagetile.messsage"/></h3>
+                           <t t-if="messagetile.unread">
+                                <i class="fa fa-circle text-info pull-right o-comment-unread" title="New Unread Message"/>
+                            </t>
+                       </div>
+                       <div class="panel-body">By <t t-esc="messagetile.author_name"/>
+                       <span class="pull-right" t-attf-title="#{messagetile.utc_time}">
+                       <t t-esc="messagetile.create_date"/></span>
+                       </div>
+                   </div>
+                </div>              
+            </t>
+        </t>
+    </t>
+
+
+     <div t-name="mail.ChatThread.PDFEditor.Chatter">
+        <div  class="o_annoted_circle" t-attf-style="
+              top : #{widget.chatter_Values.circle_top}px; 
+              left: #{widget.chatter_Values.circle_left}px;" 
+          t-attf-id = "#{widget.chatter_Values.circle_db_id}"
+          >
+            <t t-esc="widget.chatter_Values.comment_num"></t>
+          </div>
+        
+       <t t-if="widget.chatter_Values.rectangle_height &gt; 15 and widget.chatter_Values.rectangle_width &gt; 15">
+           <div class="o_image_editor_rectangle" t-attf-style="top : #{widget.chatter_Values.rectangle_top}px ; left: #{widget.chatter_Values.rectangle_left}px ; height : #{widget.chatter_Values.rectangle_height}px ; width : #{widget.chatter_Values.rectangle_width}px"/>
+       </t>
+       
+      <div class="o_comment_box_root" t-attf-style="top : #{widget.chatter_Values.circle_top-20}px ; left: #{widget.chatter_Values.circle_left+35}px">
+          <div class="panel-group">
+              <div class="tooltiptail"/>
+              <div class="panel">
+                  <div class="panel-heading">
+                      <div class="comment_text_div pull-left">Start Conversation</div>
+                      <div class="btn-group pull-right" role="group">
+                          <span class="resolve_btn">
+                              <i aria-hidden="true" class="fa fa-check-circle" style="margin-bottom: 0px;margin-top: 4px;  height: 100%;font-size: 20px;padding: 0px 0px 1px 4px;"/>
+                          </span>
+                          <button aria-expanded="false" aria-haspopup="true" class="btn btn-default dropdown-toggle color_picker_comment" data-toggle="dropdown" type="button">
+                              <div class="color_picker_selected circle_color_1"/>
+                              <span class="caret" style="padding-top: 8px;"/>
+                          </button>
+                          <ul class="dropdown-menu color-picker-dropdown-menu" role="menu">
+                              <li>
+                                  <div class="color_picker_all circle_color_1" data-color="1"/>
+                              </li>
+                              <li>
+                                  <div class="color_picker_all circle_color_2" data-color="2"/>
+                              </li>
+                              <li>
+                                  <div class="color_picker_all circle_color_3" data-color="3"/>
+                              </li>
+                              <li>
+                                  <div class="color_picker_all circle_color_4" data-color="4"/>
+                              </li>
+                              <li>
+                                  <div class="color_picker_all circle_color_5" data-color="5"/>
+                              </li>
+                              <li>
+                                  <div class="color_picker_all circle_color_6" data-color="6"/>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="panel-body">
+                      <div class="o_comment_box_chatter_div"/>
+                  </div>
+                  <div class="resolved_text o_hidden"><i class="fa fa-check" style="padding-right: 10px;"></i>this conversation is resolved</div>
+                  <div class="panel-footer">
+                      <textarea class="o_composer_text_field" placeholder="Write something..."/>
+                      <div style="padding-top: 7px;">
+                          <button class="btn o_comment_box_send" style="margin:5px;" type="button">COMMENT</button>
+                          <button class="btn o_comment_box_close" style="margin:5px;" type="button">CANCEL</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+
+    <div t-name="mail.ChatThread.ImageEditor.AddVersion">
+        <div class="addversionroot">
+            <div class="panel panel-default addpanel">
+              <div class="panel-heading">Add Versions</div>
+              <div class="panel-body">sdasd<br/>scsc<br/></div>
+              <div class="panel-footer">
+                  <button class="btn btn-default addatt">Add Photo</button>
+                  <button class="btn btn-default closeVersion">Close</button>
+              </div>
+            </div>
+        </div>
+    </div>
+
+</templates>

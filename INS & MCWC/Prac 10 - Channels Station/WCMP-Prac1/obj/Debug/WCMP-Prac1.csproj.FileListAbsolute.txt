@@ -1,9 +1,0 @@
-c:\users\soni\documents\visual studio 2015\Projects\WCMP-Prac1\WCMP-Prac1\bin\Debug\WCMP-Prac1.exe.config
-c:\users\soni\documents\visual studio 2015\Projects\WCMP-Prac1\WCMP-Prac1\bin\Debug\WCMP-Prac1.exe
-c:\users\soni\documents\visual studio 2015\Projects\WCMP-Prac1\WCMP-Prac1\bin\Debug\WCMP-Prac1.pdb
-c:\users\soni\documents\visual studio 2015\Projects\WCMP-Prac1\WCMP-Prac1\obj\Debug\WCMP-Prac1.csprojResolveAssemblyReference.cache
-c:\users\soni\documents\visual studio 2015\Projects\WCMP-Prac1\WCMP-Prac1\obj\Debug\WCMP_Prac1.Form1.resources
-c:\users\soni\documents\visual studio 2015\Projects\WCMP-Prac1\WCMP-Prac1\obj\Debug\WCMP_Prac1.Properties.Resources.resources
-c:\users\soni\documents\visual studio 2015\Projects\WCMP-Prac1\WCMP-Prac1\obj\Debug\WCMP-Prac1.csproj.GenerateResource.Cache
-c:\users\soni\documents\visual studio 2015\Projects\WCMP-Prac1\WCMP-Prac1\obj\Debug\WCMP-Prac1.exe
-c:\users\soni\documents\visual studio 2015\Projects\WCMP-Prac1\WCMP-Prac1\obj\Debug\WCMP-Prac1.pdb

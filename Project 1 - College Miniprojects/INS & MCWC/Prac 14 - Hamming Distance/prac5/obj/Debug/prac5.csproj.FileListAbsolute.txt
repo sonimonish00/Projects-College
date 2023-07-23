@@ -1,0 +1,12 @@
+c:\users\soni\documents\visual studio 2015\Projects\prac5\prac5\bin\Debug\prac5.exe.config
+c:\users\soni\documents\visual studio 2015\Projects\prac5\prac5\bin\Debug\prac5.exe
+c:\users\soni\documents\visual studio 2015\Projects\prac5\prac5\bin\Debug\prac5.pdb
+c:\users\soni\documents\visual studio 2015\Projects\prac5\prac5\obj\Debug\prac5.csprojResolveAssemblyReference.cache
+c:\users\soni\documents\visual studio 2015\Projects\prac5\prac5\obj\Debug\prac5.exe
+c:\users\soni\documents\visual studio 2015\Projects\prac5\prac5\obj\Debug\prac5.pdb
+E:\CMS\7-Sem\Subjects\MCWC\Practicals Softcopy\Prac 5 - Hamming Distance\prac5\bin\Debug\prac5.exe.config
+E:\CMS\7-Sem\Subjects\MCWC\Practicals Softcopy\Prac 5 - Hamming Distance\prac5\obj\Debug\prac5.exe
+E:\CMS\7-Sem\Subjects\MCWC\Practicals Softcopy\Prac 5 - Hamming Distance\prac5\obj\Debug\prac5.pdb
+E:\CMS\7-Sem\Subjects\MCWC\Practicals Softcopy\Prac 5 - Hamming Distance\prac5\bin\Debug\prac5.exe
+E:\CMS\7-Sem\Subjects\MCWC\Practicals Softcopy\Prac 5 - Hamming Distance\prac5\bin\Debug\prac5.pdb
+E:\CMS\7-Sem\Subjects\MCWC\Practicals Softcopy\Prac 5 - Hamming Distance\prac5\obj\Debug\prac5.csprojResolveAssemblyReference.cache

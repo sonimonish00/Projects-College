@@ -1,9 +1,0 @@
-c:\users\soni\documents\visual studio 2015\Projects\AdanceCalci\AdanceCalci\bin\Debug\AdanceCalci.exe.config
-C:\Users\Soni\Documents\Visual Studio 2015\Projects\AdanceCalci\AdanceCalci\obj\Debug\AdanceCalci.csprojResolveAssemblyReference.cache
-C:\Users\Soni\Documents\Visual Studio 2015\Projects\AdanceCalci\AdanceCalci\obj\Debug\AdanceCalci.Form1.resources
-C:\Users\Soni\Documents\Visual Studio 2015\Projects\AdanceCalci\AdanceCalci\obj\Debug\AdanceCalci.Properties.Resources.resources
-C:\Users\Soni\Documents\Visual Studio 2015\Projects\AdanceCalci\AdanceCalci\obj\Debug\AdanceCalci.csproj.GenerateResource.Cache
-C:\Users\Soni\documents\visual studio 2015\Projects\AdanceCalci\AdanceCalci\bin\Debug\AdanceCalci.exe
-C:\Users\Soni\documents\visual studio 2015\Projects\AdanceCalci\AdanceCalci\bin\Debug\AdanceCalci.pdb
-C:\Users\Soni\documents\visual studio 2015\Projects\AdanceCalci\AdanceCalci\obj\Debug\AdanceCalci.exe
-C:\Users\Soni\documents\visual studio 2015\Projects\AdanceCalci\AdanceCalci\obj\Debug\AdanceCalci.pdb

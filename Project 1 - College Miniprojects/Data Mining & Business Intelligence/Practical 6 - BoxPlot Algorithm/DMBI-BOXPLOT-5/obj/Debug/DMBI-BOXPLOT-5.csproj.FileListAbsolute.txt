@@ -1,0 +1,6 @@
+c:\users\soni\documents\visual studio 2015\Projects\DMBI-BOXPLOT-5\DMBI-BOXPLOT-5\bin\Debug\DMBI-BOXPLOT-5.exe.config
+c:\users\soni\documents\visual studio 2015\Projects\DMBI-BOXPLOT-5\DMBI-BOXPLOT-5\bin\Debug\DMBI-BOXPLOT-5.exe
+c:\users\soni\documents\visual studio 2015\Projects\DMBI-BOXPLOT-5\DMBI-BOXPLOT-5\bin\Debug\DMBI-BOXPLOT-5.pdb
+c:\users\soni\documents\visual studio 2015\Projects\DMBI-BOXPLOT-5\DMBI-BOXPLOT-5\obj\Debug\DMBI-BOXPLOT-5.csprojResolveAssemblyReference.cache
+c:\users\soni\documents\visual studio 2015\Projects\DMBI-BOXPLOT-5\DMBI-BOXPLOT-5\obj\Debug\DMBI-BOXPLOT-5.exe
+c:\users\soni\documents\visual studio 2015\Projects\DMBI-BOXPLOT-5\DMBI-BOXPLOT-5\obj\Debug\DMBI-BOXPLOT-5.pdb

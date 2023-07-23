@@ -1,0 +1,6 @@
+c:\users\soni\documents\visual studio 2015\Projects\dbmi-prac2\dbmi-prac2\bin\Debug\dbmi-prac2.exe.config
+c:\users\soni\documents\visual studio 2015\Projects\dbmi-prac2\dbmi-prac2\bin\Debug\dbmi-prac2.exe
+c:\users\soni\documents\visual studio 2015\Projects\dbmi-prac2\dbmi-prac2\bin\Debug\dbmi-prac2.pdb
+c:\users\soni\documents\visual studio 2015\Projects\dbmi-prac2\dbmi-prac2\obj\Debug\dbmi-prac2.exe
+c:\users\soni\documents\visual studio 2015\Projects\dbmi-prac2\dbmi-prac2\obj\Debug\dbmi-prac2.pdb
+C:\Users\Soni\documents\visual studio 2015\Projects\dbmi-prac2\dbmi-prac2\obj\Debug\dbmi-prac2.csprojResolveAssemblyReference.cache

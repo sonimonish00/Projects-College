@@ -1,0 +1,4 @@
+<%##-%##-%##-%##>
+% - 7 Modulo should be zero
+# - Anything
+ex:- 700-700-700-700

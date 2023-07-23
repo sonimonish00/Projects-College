@@ -1,0 +1,460 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* Media Queries */
+
+
+/* Smaller than standard 960 (devices and browsers) */
+   @media only screen and (max-width: 959px) {
+   }
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+   @media only screen and (min-width: 768px) and (max-width: 959px) {
+
+/* layout */
+#intro-wrapper {
+position: relative;
+top: 55px;
+}
+
+#intro-top {
+font-size: 25px;
+}
+
+/* teaser */
+#teaser {
+font-size: 25px;
+line-height: 1;
+}
+
+#intro-title {
+font-size: 120px;
+line-height: 120px;
+}
+
+#intro-subtitle {
+font-size: 14px;
+margin: -100px auto 0 auto;
+}
+
+h1 {
+font-size: 45px;
+padding: 35px 0 0 0;
+}
+
+h2 {
+font-size: 25px;
+}
+
+.lower-content {
+padding: 55px 0 0 0;
+}
+
+/* menu */
+.menu {
+display: none;
+visibility: hidden;
+}
+
+/* menu mobile */
+.menu-mobile {
+position: relative;
+font-family: 'Oswald', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+text-transform: uppercase;
+-webkit-font-smoothing: antialiased;
+width: auto;
+top: 22px;
+right: 30px;
+display: inherit;
+visibility: visible;
+z-index: 1000;
+}
+
+/* social icons */
+.social-icons-wrapper {
+position: relative;
+width: 175px;
+top: 27px;
+left: 28px;
+}
+
+/* closer */
+.fire-closer {
+left: 40px;
+top: 27px;
+}
+
+#clock {
+position: absolute;
+width: 600px;
+height: 600px;
+margin: 0 auto;
+/* background: url(clockface.jpg); */
+list-style: none;
+z-index: 10;
+left: 83px;
+top: -100px;
+}
+
+   }
+
+
+/* All Mobile Sizes (devices and browser) */
+   @media only screen and (max-width: 767px) {
+   }
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+   @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/* layout */
+#intro-wrapper {
+position: relative;
+top: 75px;
+}
+
+#intro-top-line {
+display: none;
+visibility: hidden;
+}
+
+#intro-top {
+font-size: 25px;
+line-height: 25px;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+#intro-bottom-line {
+display: none;
+visibility: hidden;
+}
+
+/* teaser */
+#teaser {
+text-align: center;
+margin: -22px 0 0 0;
+}
+
+#intro-title {
+font-size: 65px;
+line-height: 65px;
+}
+
+#intro-subtitle {
+display: none;
+visibility: hidden;
+}
+
+h1 {
+font-size: 45px;
+padding: 35px 0 0 0;
+}
+
+h2 {
+font-size: 25px;
+}
+
+.lower-content {
+padding: 75px 0 0 0;
+}
+
+/* borders */
+.borders {
+display: none;
+visibility: hidden;
+}
+
+/* countdown */
+#countdown-wrapper {
+position: relative;
+left: -20px;
+margin: 125px auto 0 auto;
+width: 260px;
+}
+
+#countdown li {
+display: inline-block;
+width: 100px;
+}
+
+/* menu */
+.menu {
+display: none;
+visibility: hidden;
+}
+
+/* menu mobile */
+.menu-mobile {
+position: relative;
+font-family: 'Oswald', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+text-transform: uppercase;
+-webkit-font-smoothing: antialiased;
+width: auto;
+top: 10px;
+right: 15px;
+display: inherit;
+visibility: visible;
+z-index: 1000;
+}
+
+/* newsletter form */
+#subscribe-form {
+position: relative;
+bottom: 40px;
+right: 0;
+margin: 66px auto 0 auto;
+padding: 0;
+}
+
+/* social icons */
+.social-icons-wrapper {
+position: relative;
+width: 175px;
+top: 15px;
+left: 12px;
+}
+
+/* closer */
+.fire-closer {
+left: 40px;
+top: 17px;
+}
+
+/* dividers */
+.divider-left-top {
+display: none;
+visibility: hidden;
+}
+
+.divider-right-top {
+display: none;
+visibility: hidden;
+}
+
+.divider-left-bottom {
+display: none;
+visibility: hidden;
+}
+
+.divider-right-bottom {
+display: none;
+visibility: hidden;
+}
+
+/* clock */
+#clock {
+position: absolute;
+width: 200px;
+height: 200px;
+}
+
+#sec, #min, #hour {
+height: 200px;
+left: 0;
+}
+
+#sec {
+display: none;
+visibility: hidden;
+}
+
+#min {
+display: none;
+visibility: hidden;
+}
+
+#hour {
+display: none;
+visibility: hidden;
+}
+
+   }
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+   @media only screen and (max-width: 479px) {
+
+/* layout */
+#intro-wrapper {
+position: relative;
+top: 75px;
+}
+
+#intro-top-line {
+display: none;
+visibility: hidden;
+}
+
+#intro-top {
+font-size: 25px;
+line-height: 25px;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+#intro-bottom-line {
+display: none;
+visibility: hidden;
+}
+
+/* teaser */
+#teaser {
+font-size: 25px;
+line-height: 1;
+text-align: center;
+}
+
+#intro-title {
+font-size: 65px;
+line-height: 65px;
+}
+
+#intro-subtitle {
+display: none;
+visibility: hidden;
+}
+
+h1 {
+font-size: 45px;
+padding: 35px 0 0 0;
+}
+
+h2 {
+font-size: 25px;
+}
+
+.lower-content {
+padding: 75px 0 0 0;
+}
+
+/* borders */
+.borders {
+display: none;
+visibility: hidden;
+}
+
+/* countdown */
+#countdown-wrapper {
+position: relative;
+left: -20px;
+margin: 125px auto 0 auto;
+width: 260px;
+}
+
+#countdown li {
+display: inline-block;
+width: 100px;
+}
+
+/* menu */
+.menu {
+display: none;
+visibility: hidden;
+}
+
+/* menu mobile */
+.menu-mobile {
+position: relative;
+font-family: 'Oswald', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+text-transform: uppercase;
+-webkit-font-smoothing: antialiased;
+width: auto;
+top: 10px;
+right: 15px;
+display: inherit;
+visibility: visible;
+z-index: 1000;
+}
+
+/* newsletter form */
+#subscribe-form {
+position: relative;
+bottom: 40px;
+right: 0;
+margin: 66px auto 0 auto;
+padding: 0;
+}
+
+/* social icons */
+.social-icons-wrapper {
+position: relative;
+width: 175px;
+top: 15px;
+left: 12px;
+}
+
+/* closer */
+.fire-closer {
+left: 40px;
+top: 17px;
+}
+
+/* dividers */
+.divider-left-top {
+display: none;
+visibility: hidden;
+}
+
+.divider-right-top {
+display: none;
+visibility: hidden;
+}
+
+.divider-left-bottom {
+display: none;
+visibility: hidden;
+}
+
+.divider-right-bottom {
+display: none;
+visibility: hidden;
+}
+
+/* clock */
+#clock {
+position: absolute;
+width: 200px;
+height: 200px;
+}
+
+#sec, #min, #hour {
+height: 200px;
+left: 0;
+}
+
+#sec {
+display: none;
+visibility: hidden;
+}
+
+#min {
+display: none;
+visibility: hidden;
+}
+
+#hour {
+display: none;
+visibility: hidden;
+}
+
+   }

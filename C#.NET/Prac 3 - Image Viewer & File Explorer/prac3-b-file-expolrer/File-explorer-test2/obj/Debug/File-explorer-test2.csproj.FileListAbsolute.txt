@@ -1,9 +1,0 @@
-c:\users\soni\documents\visual studio 2015\Projects\File-explorer-test2\File-explorer-test2\bin\Debug\File-explorer-test2.exe.config
-c:\users\soni\documents\visual studio 2015\Projects\File-explorer-test2\File-explorer-test2\bin\Debug\File-explorer-test2.exe
-c:\users\soni\documents\visual studio 2015\Projects\File-explorer-test2\File-explorer-test2\bin\Debug\File-explorer-test2.pdb
-c:\users\soni\documents\visual studio 2015\Projects\File-explorer-test2\File-explorer-test2\obj\Debug\File-explorer-test2.csprojResolveAssemblyReference.cache
-c:\users\soni\documents\visual studio 2015\Projects\File-explorer-test2\File-explorer-test2\obj\Debug\File_explorer_test2.Form1.resources
-c:\users\soni\documents\visual studio 2015\Projects\File-explorer-test2\File-explorer-test2\obj\Debug\File_explorer_test2.Properties.Resources.resources
-c:\users\soni\documents\visual studio 2015\Projects\File-explorer-test2\File-explorer-test2\obj\Debug\File-explorer-test2.csproj.GenerateResource.Cache
-c:\users\soni\documents\visual studio 2015\Projects\File-explorer-test2\File-explorer-test2\obj\Debug\File-explorer-test2.exe
-c:\users\soni\documents\visual studio 2015\Projects\File-explorer-test2\File-explorer-test2\obj\Debug\File-explorer-test2.pdb
